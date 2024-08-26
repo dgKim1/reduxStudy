@@ -9,7 +9,6 @@ function reducer(state=initialState,action) {
     switch (action.type) {
         case "increase":
             return {...state,count : state.count + action.payload.num}
-            break;
         case "login":
             return {...state, 
                 id: action.payload.id,
